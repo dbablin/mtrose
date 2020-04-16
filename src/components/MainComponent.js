@@ -5,15 +5,12 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Recreation from './RecreationComponent';
-import RecreationItemInfo from './RecreationItemInfo';
 import Amenity from './AmenityComponent';
 import Directions from './DirectionsComponent';
 import Booking from './BookingComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { ROOMS } from '../shared/rooms';
 import { COMMENTS } from '../shared/comments';
-import { PROMOTIONS } from '../shared/promotions';
-import { PARTNERS } from '../shared/partners';
 import { CAROUSELITEMS } from '../shared/carouselItems';
 import { RECREATIONITEMS } from '../shared/recreationItems';
 import { AMENITIES } from '../shared/amenities';
@@ -26,7 +23,7 @@ class Main extends Component {
             comments: COMMENTS, 
             carouselItems: CAROUSELITEMS,
             recreationItems: RECREATIONITEMS,
-            selectedRecreationItem: null,
+            selectedRecreationItem: null, 
             amenities: AMENITIES
         }
     }
@@ -40,7 +37,7 @@ class Main extends Component {
                     room={this.state.rooms.filter(room => room.featured)[0]}
                     amenity={this.state.amenities.filter(amenity => amenity.featured)[0]}
                     recreationItem={this.state.recreationItems.filter(recreationItem => recreationItem.featured)[0]}
-                />
+                /> 
             );
         }
         const RoomWithId = ({match}) => {
