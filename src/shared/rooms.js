@@ -2,7 +2,7 @@ export const ROOMS = [
     {
         id: 0,
         name: "Mountain Views",
-        image: "./assets/images/mtnViews.jpg",
+        image: "/assets/images/mtnViews.jpg",
         cost: 100,
         featured: false,
         description: "Our mountain view rooms in the main lodge all feature a king bed, built-in gas fireplace, and mountain views."
