@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc5153db2ec3f229e1d74e6b564e6e93",
+    "revision": "50cd92507a502ffea92de87fdf2e10c0",
     "url": "/mtrose/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mtrose/static/css/2.44b72fb2.chunk.css"
   },
   {
-    "revision": "72f5d20164dd1d2362da",
+    "revision": "5d1bef6ed2739d10b8df",
     "url": "/mtrose/static/css/main.9c5b89c9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mtrose/static/js/2.9865cfaf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72f5d20164dd1d2362da",
-    "url": "/mtrose/static/js/main.c0128f23.chunk.js"
+    "revision": "5d1bef6ed2739d10b8df",
+    "url": "/mtrose/static/js/main.ea0aefab.chunk.js"
   },
   {
     "revision": "21a21bfaf6bd2f5749c9",

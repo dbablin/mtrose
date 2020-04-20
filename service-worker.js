@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mtrose/precache-manifest.89487a004c61c61b5880747f33b20873.js"
+  "/mtrose/precache-manifest.515bba078378f4acbcb6dd06b3c661af.js"
 );
 
 self.addEventListener('message', (event) => {
