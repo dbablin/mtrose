@@ -2,7 +2,7 @@ export const AMENITIES = [
     {
         id: 0,
         name: "Award-winning breakfast",
-        image: "/assets/images/breakfast.jpg",
+        image: "/mtrose/assets/images/breakfast.jpg",
         featured: true,
         description: "Enjoy a full North American breakfast, including French toast with maple syrup, bacon, eggs, and sausage."
     },
