@@ -67,6 +67,4 @@ class Main extends Component {
     }
 }
 
-// <RecreationItemInfo  />
-
 export default Main;
